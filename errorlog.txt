@@ -1,0 +1,30 @@
+[19:34:30] [Server thread/ERROR]: Could not load 'plugins\Friend-1.0-SNAPSHOT.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/sk89q/minecraft/util/commands/CommandsManager
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:328) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+Caused by: java.lang.NoClassDefFoundError: com/sk89q/minecraft/util/commands/CommandsManager
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_20]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_20]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.CommandsManager
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_20]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_20]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_20]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_20]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnks]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_20]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_20]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_20]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_20]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3024jnk
