@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="command-framework-core-0.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../APIs &amp; Libs/commandframework/sk89q-command-framework/core/target/command-framework-core-0.5-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

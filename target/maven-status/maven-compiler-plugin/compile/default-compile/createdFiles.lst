@@ -1,0 +1,9 @@
+com\itselliott\Friend\Configuration.class
+com\itselliott\Friend\Friend.class
+com\itselliott\Friend\Requests.class
+com\itselliott\Friend\Friend$1.class
+com\itselliott\Friend\State$1.class
+com\itselliott\Friend\State.class
+com\itselliott\Friend\State$StateType.class
+com\itselliott\Friend\FriendCommands.class
+com\itselliott\Friend\FriendCommands$FriendParentCommand.class

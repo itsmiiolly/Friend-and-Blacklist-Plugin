@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="original-command-framework-bukkit-0.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../APIs &amp; Libs/commandframework/sk89q-command-framework/bukkit/target/original-command-framework-bukkit-0.5-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
