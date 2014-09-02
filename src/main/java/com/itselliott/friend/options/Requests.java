@@ -1,4 +1,4 @@
-package com.itselliott.Friend;
+package com.itselliott.friend.options;
 
 import org.bukkit.entity.Player;
 

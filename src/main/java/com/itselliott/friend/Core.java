@@ -1,6 +1,6 @@
-package com.itselliott.Friend;
+package com.itselliott.friend;
 
-
+import com.itselliott.friend.commands.FriendCommands;
 import com.sk89q.bukkit.util.CommandsManagerRegistration;
 import com.sk89q.minecraft.util.commands.CommandPermissionsException;
 import com.sk89q.minecraft.util.commands.MissingNestedCommandException;
@@ -18,7 +18,7 @@ import org.bukkit.plugin.java.JavaPlugin;
  * Created by Elliott on 29/08/2014.
  */
 
-public class Friend extends JavaPlugin {
+public class Core extends JavaPlugin {
 
     private CommandsManager<CommandSender> commands;
     public CommandsManagerRegistration cmdRegister;

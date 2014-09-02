@@ -1,7 +1,9 @@
-package com.itselliott.Friend;
+package com.itselliott.friend.options;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
+
+import com.itselliott.friend.Configuration;
 
 /**
  * Created by Elliott on 29/08/2014.
